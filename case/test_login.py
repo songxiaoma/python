@@ -23,7 +23,7 @@ class LoginPage(unittest.TestCase):
         #print("-------测试结束------")
     def test02(self):
         print("-------测试开始------")
-        self.a.input_user("Ltest")
+        self.a.input_user("VLtest")
         self.a.input_password("ht2A605")
         sleep(5)
         self.a.click_login_button()
