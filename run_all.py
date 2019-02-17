@@ -4,7 +4,7 @@ casePath=r"C:\Users\G7\PycharmProjects\GS\case"
 rule="test*.py"
 discover=unittest.defaultTestLoader.discover(start_dir=casePath,pattern=rule)
 print(discover)
-reportPath=r"C:\Users\G7\PycharmProjects\GS\report\report"+".html"
+reportPath=r"C:\Users\G7\PycharmProjects\shiyanbenji\workspace\f\report\report"+".html"
 fp=open(reportPath,"wb")
 runner=HTMLTestRunner_cn.HTMLTestRunner(stream=fp,
                                      title="登录验证",
